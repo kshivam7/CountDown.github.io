@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Roboto:ital,wght@0,300;1,100;1,300;1,400&family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./bird.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: 'Roboto',sans-serif;
+    height: 100vh;
+    margin-top: 2rem;
+}
+
+h1{
+    font-weight: normal;
+    text-align: center;
+    font-size: 3rem;;
+}
+
+.container{
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 45px;
+    margin:0 2rem;
+    text-shadow: 1px 1px;
+    line-height: 1;
+}
+
+.s{
+    text-align: center;
+    margin:0 2rem;
+}
+.s span{
+    font-weight: bold;
+    font-size: 2rem;
+}
